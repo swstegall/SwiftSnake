@@ -19,5 +19,6 @@ jobs:
     - uses: swift-actions/setup-swift@v2
     - name: Build
       run: swift build -v
-    - name: Run tests
-      run: swift test -v
+    # Add back if/when I add any unit tests.
+    # - name: Run tests
+    #   run: swift test -v

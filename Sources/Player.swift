@@ -1,37 +1,37 @@
 import Raylib
 
-internal class Player: Actor {
-    var xPosition: Int32
-    var yPosition: Int32
-    var xSize: Int32
-    var ySize: Int32
+internal class Player {
+    // var xPosition: Int32
+    // var yPosition: Int32
+    var cellXSize: Int32
+    var cellYSize: Int32
     var direction: Direction
     let color: Color = RaylibC.Color.lime
 
     init(
-        startX: Int32,
-        startY: Int32,
-        xSize: Int32,
-        ySize: Int32,
+        // startX: Int32,
+        // startY: Int32,
+        cellXSize: Int32,
+        cellYSize: Int32,
         direction: Direction
     ) {
-        xPosition = startX
-        yPosition = startY
-        self.xSize = xSize
-        self.ySize = ySize
+        // xPosition = startX
+        // yPosition = startY
+        self.cellXSize = cellXSize
+        self.cellYSize = cellYSize
         self.direction = direction
     }
 
     func updatePosition() {
         switch direction {
             case .north:
-                yPosition -= ySize
+                // yPosition -= cellYSize
             case .south:
-                yPosition += ySize
+                // yPosition += cellYSize
             case .east:
-                xPosition += xSize
+                // xPosition += cellXSize
             case .west:
-                xPosition -= xSize
+                // xPosition -= cellXSize
         }
     }
 }

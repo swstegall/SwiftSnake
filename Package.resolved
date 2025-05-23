@@ -1,5 +1,5 @@
 {
-  "originHash" : "eb46c26b50233f629863765a4ff6dbe97b0526206ae95b253351276b50776093",
+  "originHash" : "26bc74f78e866d75085722aed0f882e3c27239f6b79e7716849b9f6a388e68e0",
   "pins" : [
     {
       "identity" : "raylib",
@@ -8,6 +8,15 @@
       "state" : {
         "branch" : "master",
         "revision" : "9e7c83604f74211e4f8f3c38c1c52d4434f51bc1"
+      }
+    },
+    {
+      "identity" : "swiftdatastructures",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swstegall/SwiftDataStructures.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a220d152c1d75535121e4ffcba03d1030a9e767a"
       }
     }
   ],
